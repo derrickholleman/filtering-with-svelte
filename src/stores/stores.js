@@ -1,5 +1,5 @@
 import { writable, derived } from "svelte/store";
-import animalsData from '../data/animals'
+import animalsData from "../data/animals";
 
 // values to filter by
 export const animal = writable("");

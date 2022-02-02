@@ -15,10 +15,7 @@
 
 <label for="searchByRegion">Search By Region</label>
 
-<select
-bind:value={regionValue}
-  id="searchByRegion"
->
+<select bind:value={regionValue} id="searchByRegion">
   <option value="">-- Select a Region -- </option>
   <option value="North America">North America</option>
   <option value="South America">South America</option>
