@@ -1,5 +1,5 @@
 <script>
-  import { filteredAnimals } from "./stores/stores.js";
+  import { filteredAnimals, animal, region, diet } from "./stores/stores.js";
 </script>
 
 <ul>
@@ -10,10 +10,18 @@
       <li>Diet: {animal.diet}</li>
     </div>
   {/each}
+
+  {#if $filteredAnimals.length === 0}
+    <p class="no-results">No results found!</p>
+  {/if}
 </ul>
 
 <style>
   h2 {
     margin: 0;
+  }
+  .no-results {
+    color: red;
+    font-size: 1.25rem;
   }
 </style>
