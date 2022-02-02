@@ -1,5 +1,5 @@
 <script>
-  import { filteredAnimals, animal, region, diet } from "./stores/stores.js";
+  import { filteredAnimals } from "./stores/stores.js";
 </script>
 
 <ul>
