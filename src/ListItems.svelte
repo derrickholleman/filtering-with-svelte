@@ -1,5 +1,5 @@
 <script>
-  import { filteredAnimals } from "./stores.js";
+  import { filteredAnimals } from "./stores/stores.js";
 </script>
 
 <ul>

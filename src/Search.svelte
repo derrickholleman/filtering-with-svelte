@@ -1,5 +1,5 @@
 <script>
-  import { animal, region, diet } from "./stores.js";
+  import { animal, region, diet } from "./stores/stores.js";
 
   let animalValue = "";
   let regionValue = "";
